@@ -1,0 +1,158 @@
+html {
+  height: 100%;
+  width: 100%;
+  border: 5px;
+  background-color: #5DADE2;
+}
+
+#start {
+  height: 70px;
+  width: 350px;
+  border-radius: 50px;
+  font-size: 40px;
+  padding: 12px;
+  background-color: darkcyan;
+  color: white;
+}
+
+* {
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.quiz,
+.scores {
+  margin: 50px auto 0 auto;
+  max-width: 400px;
+}
+
+#top {
+  color: #1ba5c5;
+  font-size: 60px;
+}
+
+.containerNew {
+  border: 5px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 80%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+p {
+  margin: 15px 15px;
+}
+
+.landing {
+  text-align: center;
+}
+
+.scoresHeader {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.timer {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+button {
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  color: #000000;
+  background-color: #40E0D0;
+  border-radius: 5px;
+  border: 0;
+  padding: 10px;
+  font-size: 25px;
+  transition: box-shadow 0.6s;
+}
+
+button:hover {
+  background-color: darkcyan;
+  box-shadow: 5px 5px 4px grey;
+  color: white;
+  opacity: 0.7s;
+}
+
+.options button {
+  display: block;
+}
+
+input[type="text"] {
+  font-size: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.feedback {
+  font-style: bold;
+  font-size: 120%;
+  margin-top: 20px;
+  padding-top: 15px;
+  color: #fff;
+  border-top: 2px solid #4B0082;
+}
+
+ol {
+  padding-left: 15px;
+  max-height: 600px;
+  overflow: auto;
+}
+
+li {
+  padding: 5px;
+  list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+  background-color: #dfdae7;
+}
+
+@media screen and (max-width: 768px) {
+  .containerNew {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .containerNew {
+    width: 90%;
+  }
+
+  .quiz,
+  .scores {
+    max-width: 99%;
+  }
+}
+
+.try {
+  font-size: 30px;
+}
+
+.containerNew {
+  background-color: #A9CCE3;
+}
+
+#question-words {
+  font-size: 25px;
+  width: 400px;
+  white-space: normal;
+  text-align: center;
+}
+
+.score-final {
+  font-size: 50px;
+}
+
+#congrats {
+  color: #FFD700;
+}
